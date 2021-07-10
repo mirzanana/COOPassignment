@@ -177,9 +177,9 @@ app.delete("/total/:id", async (req,res,next)=>{
 
 
 //localhost:3000
-const PORT = process.env.PORT || 5000
-app.listen(5000,() =>{
-    console.log ("listening to port 5000")
+const PORT = process.env.PORT || 3000
+app.listen(PORT,() =>{
+    console.log ("listening to port 3000")
 })
 
 
