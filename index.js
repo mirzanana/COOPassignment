@@ -1,9 +1,9 @@
 const app =require ("express")()
 const bodyParser = require ("body-parser")
 const mongoose = require ("mongoose")
-const menumodel1 = require("./module/menumodel1")
-const ordermodel = require ("./module/ordermodel")
-const totalmodel = require ("./module/totalmodel")
+const menumodel1 = require("./modules/menumodel1")
+const ordermodel = require ("./modules/ordermodel")
+const totalmodel = require ("./modules/totalmodel")
 
 
 
